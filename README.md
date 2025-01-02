@@ -38,13 +38,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 $ sudo bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 
 bash: /dev/fd/63: No such file or directory
+
 则分两步：先下载；再执行：
+
 curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh -o install.sh
 
-
-
 sudo bash install.sh
-
 】
 
 ## Install legacy Version (we don't recommend)
